@@ -1,2 +1,2 @@
 # CSES-Problem-Set
-Contains all the CSES Problem set
+Solving and simultaneously adding the solution to the problems
