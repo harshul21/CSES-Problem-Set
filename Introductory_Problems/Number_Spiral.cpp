@@ -15,10 +15,13 @@ ll solve(ll a, ll b)
  
 	ll num = (mx * mx) - (mx - 1);
  
-	if (a == b){
+	if (a == b)
+    {
 		return num;
 	}
-	else if (a > b){
+    
+	else if (a > b)
+    {
 		if (mx % 2 == 0)
 		{
 			num += diff;
@@ -28,7 +31,8 @@ ll solve(ll a, ll b)
 			num -= diff;
 		}
 	}
-	else{
+	else
+    {
 		if (mx % 2 == 0)
 		{
 			num -= diff;
